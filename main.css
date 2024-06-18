@@ -1,0 +1,118 @@
+html, body {
+    height: 100%;
+    margin:0;
+    padding: 0;
+}
+
+body {
+    min-height: 100%;
+}
+
+.header {
+    text-align: center;
+    color: #b91c1486;
+    background-color: #580c26;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    padding: 20px;
+    opacity: 0;
+    animation: SlideAndFadeIn 2s ease-in-out forwards;
+}
+
+@keyframes SlideAndFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.quiz-container {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+    background-color: #510b08; 
+    color: #ecd738c8;
+    max-width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    height: 400px;
+    opacity: 100%;
+}
+
+.progress-bar-container {
+    width: 90%;
+    height: 10px;
+    background-color: rgba(47, 6, 6, 0.326);
+    margin: auto;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    width: 90%;
+    height: 10px;
+    background-color: #ecd738c8;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.timer {
+    background-color: #30141d;
+    width: 100px;
+    color: #ecd738;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding: 50px 40px;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 60%;
+}
+
+.option-container {
+    margin: 20px;
+    height: fit-content;
+}
+
+.option-btn {
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 5px;
+    background-color: darkgoldenrod;
+    border: none;
+    border-radius: 5px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    font-size: 20px;
+    font-style: bold;
+}
+
+.option-btn:hover {
+    background-color: rgb(129, 95, 10);
+}
+
+.timer-settings {
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(201, 156, 42);
+    padding: 5px;
+    margin-top: 5px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.question {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+
+/*
+margin = external spacing
+padding = internal spacing
+*/
