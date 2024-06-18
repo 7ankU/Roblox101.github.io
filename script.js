@@ -199,5 +199,5 @@ function endQuiz()
     optionsContainer.style.display = "none";
     timerElement.style.display = "none"
     feedbackLabel.textContent = "";
-    questionElement.textContent = "You've finished the quiz! Yayyyyyyyyyyy! (How badly would you have done on your first try without searching up answers?)";
+    questionElement.textContent = "You've finished the quiz! Yayyyyyyyyyyy!";
 }
